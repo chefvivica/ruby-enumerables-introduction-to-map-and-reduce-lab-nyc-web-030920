@@ -24,4 +24,5 @@ def map_to_negativize(source_array)
       x = -x 
       i += 1 
     end 
+  source_array
 end 
