@@ -83,6 +83,6 @@ def reduce_to_any_true(source_array)
           return true
           i += 1 
         end
+       false 
       end 
-    false 
 end   
