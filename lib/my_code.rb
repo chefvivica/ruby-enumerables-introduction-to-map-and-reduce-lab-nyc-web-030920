@@ -68,9 +68,9 @@ end
 def reduce_to_all_true(source_array)
    i = 0 
     while i < source_array.length do 
-      case source_array[i] === true 
+      if source_array[i] === true 
         return true 
-      case
+      elsif
         source_array[i]===false 
         return false
       end 
