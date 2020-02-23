@@ -14,3 +14,13 @@
 # - `reduce_to_total(source_array, starting_point)`
 # - `reduce_to_all_true(source_array)`
 # - `reduce_to_any_true(source_array)`
+
+
+def map_to_negativize(source_array)
+  i = 0 
+    while i < source_array.length do 
+      source_array[i] = x 
+      x = -x 
+      i += 1 
+    end 
+end 
