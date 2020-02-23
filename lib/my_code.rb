@@ -68,12 +68,12 @@ end
 def reduce_to_all_true(source_array)
    i = 0 
     while i < source_array.length do 
-      if source_array[i] === true 
+      case source_array[i] === true 
         puts true 
-      else 
-        puts false 
+      case
+        source_array[i]===false 
+        puts false
       end 
-    i += 1
+     i += 1 
     end 
-  source_array
 end 
